@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> Welcome to our News Website </title>
+        {% endif %}
+    </head>
+    {% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+...
+    <body>
+<!-- Popular movie section  -->
+        <h3> Top Stories</h3>
+         <ul>
+            {% for popular_news in popular %}
+                <li>{{ popular_news.title}}</li>
+            {% endfor %}
+        </ul>
+       
+    </body>
+</html>
