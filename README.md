@@ -24,8 +24,16 @@ Python
 ### Requirements for Deployment
 ​
 * A computer device
-​
 * Internet connection
+* A code editor
+
+### How to Deploy the App
+​
+* Clone the app from the GitHub repo
+* Set a runtime environment on your computer
+* Set up and activate a virtual environment
+* From terminal, use the command $ python3 run.py
+* Use the link from the prompt to render the app
 
 * A web browser
 ### Known Bugs
